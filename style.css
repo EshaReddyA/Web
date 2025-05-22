@@ -1,0 +1,38 @@
+h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial;
+}
+h2 {
+    color: black;
+    font-size: 30px;
+    font-family:'Times New Roman';
+}
+
+.container { 
+    display: flex;
+    justify-content: space-around;
+}
+.container2 { 
+    display: grid;
+
+}
+.box {
+    background-color:bisque;
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    top: 10px;
+    text-align: justify;
+}
+
+
+#main {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
